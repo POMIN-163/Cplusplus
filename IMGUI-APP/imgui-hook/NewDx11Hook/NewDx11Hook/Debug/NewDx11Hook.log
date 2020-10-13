@@ -1,0 +1,4 @@
+﻿  main.cpp
+e:\mydown\newdx11hook\newdx11hook\main.cpp(195): warning C4244: “=”: 从“LONG”转换到“float”，可能丢失数据
+e:\mydown\newdx11hook\newdx11hook\main.cpp(196): warning C4244: “=”: 从“LONG”转换到“float”，可能丢失数据
+  NewDx11Hook.vcxproj -> E:\MyDown\NewDx11Hook\Debug\NewDx11Hook.dll

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{5b48ab06-7f24-4043-9880-de833a8a50ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Detours">
+      <UniqueIdentifier>{b2a688bf-7bc5-4b00-910d-3c3f4f538c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Draw">
+      <UniqueIdentifier>{b515f562-d81b-47e7-bcd5-5a8fe7ff8f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FontString">
+      <UniqueIdentifier>{eddf0eb3-d795-4f56-b32d-93408ddcb02c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawUtil.cpp">
+      <Filter>Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1ColorRGBA.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1ColorRGBAInterface.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1DWriteRenderTarget.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1DWriteRenderTargetInterface.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1Factory.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1FactoryInterface.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1FontWrapper.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1FontWrapperInterface.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphAtlas.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphAtlasInterface.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphProvider.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphProviderInterface.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphRenderStates.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphRenderStatesInterface.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphSheet.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphSheetInterface.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphVertexDrawer.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1GlyphVertexDrawerInterface.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1StateSaver.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1TextGeometry.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1TextGeometryInterface.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1TextRenderer.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="CFW1TextRendererInterface.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1FontWrapper.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+    <ClCompile Include="FW1Precompiled.cpp">
+      <Filter>FontString</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="detours.h">
+      <Filter>Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="detver.h">
+      <Filter>Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="syelog.h">
+      <Filter>Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawUtil.h">
+      <Filter>Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1ColorRGBA.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1DWriteRenderTarget.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1Factory.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1FontWrapper.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1GlyphAtlas.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1GlyphProvider.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1GlyphRenderStates.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1GlyphSheet.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1GlyphVertexDrawer.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1Object.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1StateSaver.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1TextGeometry.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="CFW1TextRenderer.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1CompileSettings.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1FontWrapper.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="FW1Precompiled.h">
+      <Filter>FontString</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="detours.lib">
+      <Filter>Detours</Filter>
+    </Library>
+    <Library Include="syelog.lib">
+      <Filter>Detours</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="detours.pdb">
+      <Filter>Detours</Filter>
+    </None>
+  </ItemGroup>
+</Project>

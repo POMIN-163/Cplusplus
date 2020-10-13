@@ -1,0 +1,41 @@
+﻿  CFW1ColorRGBA.cpp
+  CFW1ColorRGBAInterface.cpp
+  CFW1DWriteRenderTarget.cpp
+  CFW1DWriteRenderTargetInterface.cpp
+  CFW1Factory.cpp
+  CFW1FactoryInterface.cpp
+  CFW1FontWrapper.cpp
+  CFW1FontWrapperInterface.cpp
+  CFW1GlyphAtlas.cpp
+  CFW1GlyphAtlasInterface.cpp
+  CFW1GlyphProvider.cpp
+  CFW1GlyphProviderInterface.cpp
+  CFW1GlyphRenderStates.cpp
+  CFW1GlyphRenderStatesInterface.cpp
+  CFW1GlyphSheet.cpp
+  CFW1GlyphSheetInterface.cpp
+  CFW1GlyphVertexDrawer.cpp
+  CFW1GlyphVertexDrawerInterface.cpp
+  CFW1StateSaver.cpp
+  CFW1TextGeometry.cpp
+  正在生成代码...
+  正在编译...
+  CFW1TextGeometryInterface.cpp
+  CFW1TextRenderer.cpp
+  CFW1TextRendererInterface.cpp
+  DrawUtil.cpp
+e:\mydown\newdx11hook\newdx11hook\drawutil.cpp(13): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\mydown\newdx11hook\newdx11hook\drawutil.cpp(15): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\mydown\newdx11hook\newdx11hook\drawutil.cpp(22): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+e:\mydown\newdx11hook\newdx11hook\drawutil.cpp(22): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  FW1FontWrapper.cpp
+  FW1Precompiled.cpp
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  main.cpp
+e:\mydown\newdx11hook\newdx11hook\main.cpp(114): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HWND”
+e:\mydown\newdx11hook\newdx11hook\main.cpp(198): warning C4244: “=”: 从“LONG”转换到“float”，可能丢失数据
+e:\mydown\newdx11hook\newdx11hook\main.cpp(199): warning C4244: “=”: 从“LONG”转换到“float”，可能丢失数据
+e:\mydown\newdx11hook\newdx11hook\main.cpp(326): error C2065: “GWL_WNDPROC”: 未声明的标识符
+  正在生成代码...

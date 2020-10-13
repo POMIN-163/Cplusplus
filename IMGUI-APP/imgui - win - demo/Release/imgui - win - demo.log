@@ -1,0 +1,8 @@
+﻿  imgui - win - demo.cpp
+f:\_my_vs\c++\imgui-app\imgui - win - demo\imgui - win - demo.cpp(43): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  正在生成代码
+  1 of 900 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  imgui - win - demo.vcxproj -> F:\_My_VS\C++\IMGUI-APP\Release\imgui - win - demo.exe
