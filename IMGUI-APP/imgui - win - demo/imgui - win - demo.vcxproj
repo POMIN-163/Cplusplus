@@ -167,6 +167,7 @@
   <ItemGroup>
     <ClCompile Include="imgui - win - demo.cpp" />
     <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_demo.cpp" />
     <ClCompile Include="imgui\imgui_draw.cpp" />
     <ClCompile Include="imgui\imgui_impl_dx11.cpp" />
     <ClCompile Include="imgui\imgui_impl_win32.cpp" />
@@ -177,9 +178,7 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="E:\Beauty\ico\ico-文件管理\security-help.ico" />
-    <Image Include="e:\beauty\ico\icon2.ico" />
     <Image Include="E:\Beauty\ico\logo.ico" />
-    <Image Include="icon1.ico" />
     <Image Include="imgui - win - demo.ico" />
     <Image Include="small.ico" />
   </ItemGroup>

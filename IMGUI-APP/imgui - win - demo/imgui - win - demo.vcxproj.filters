@@ -74,6 +74,9 @@
     <ClCompile Include="imgui\imgui_widgets.cpp">
       <Filter>imgui</Filter>
     </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="imgui - win - demo.rc">
@@ -87,13 +90,7 @@
     <Image Include="imgui - win - demo.ico">
       <Filter>资源文件</Filter>
     </Image>
-    <Image Include="icon1.ico">
-      <Filter>资源文件</Filter>
-    </Image>
     <Image Include="E:\Beauty\ico\logo.ico">
-      <Filter>资源文件</Filter>
-    </Image>
-    <Image Include="e:\beauty\ico\icon2.ico">
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="E:\Beauty\ico\ico-文件管理\security-help.ico">
