@@ -6411,7 +6411,8 @@ void ImGui::SetWindowSize(const ImVec2& size, ImGuiCond cond)
 void ImGui::SetWindowSize(const char* name, const ImVec2& size, ImGuiCond cond)
 {
     if (ImGuiWindow* window = FindWindowByName(name))
-        SetWindowSize(window, size, cond);
+		if(window != NULL)
+            SetWindowSize(window, size, cond);
 }
 
 void ImGui::SetWindowCollapsed(ImGuiWindow* window, bool collapsed, ImGuiCond cond)

@@ -96,5 +96,8 @@
     <Image Include="E:\Beauty\ico\ico-文件管理\security-help.ico">
       <Filter>资源文件</Filter>
     </Image>
+    <Image Include="e:\beauty\ico\icon4.ico">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>

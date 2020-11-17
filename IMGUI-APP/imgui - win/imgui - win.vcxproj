@@ -39,6 +39,9 @@
     <ResourceCompile Include="imgui - win.rc" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="E:\Beauty\ico\ico-红白\08.ico" />
+    <Image Include="e:\beauty\ico\icon2.ico" />
+    <Image Include="e:\beauty\ico\icon3.ico" />
     <Image Include="E:\Beauty\ico\logo.ico" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
